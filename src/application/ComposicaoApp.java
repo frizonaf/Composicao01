@@ -2,7 +2,6 @@ package application;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.Calendar;
 import java.util.Date;
 import java.util.Locale;
 import java.util.Scanner;
@@ -56,7 +55,7 @@ public class ComposicaoApp {
 		}
 		
 		System.out.println();
-		System.out.print("Enter month and year to calculate income (MM/YYYY: ");
+		System.out.print("Enter month and year to calculate income (MM/YYYY): ");
 		String monthAndYear = sc.next();
 		int month = Integer.parseInt(monthAndYear.substring(0, 2));
 		int year = Integer.parseInt(monthAndYear.substring(3));
